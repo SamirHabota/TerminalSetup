@@ -1,7 +1,7 @@
 # Powerline setup
 
 Credit and more details <a style="text-decoration: none" href = "https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh">here.</a>
-This is a powerline setup created with POSH.
+This is a powerline setup based on Posh.
 
 ## Posh
 Having GIT installed is asummed and implied.
@@ -29,7 +29,7 @@ Add a powerline font to the OS `fonts` folder, then default the font from inside
   - open JSON settings for the Windows terminal => defaults => font => paste the font name
 
 ## Powerline theme modifications
-Type just `$profile` inside the terminal to view the `oh-my-posh` directory for any powerline specific JSON theme changes. Find the JSON file of the desired theme, and start modifying.
+Type just `$profile` inside the terminal to view the `oh-my-posh` directory for any powerline specific JSON theme changes. Find the JSON file of the desired theme, and start modifying. For any of my desired themes, view the JSON theme settings provided in the repos `powerlineThemeSetups` folder.
 
 For me, as of the last commit date, the themes folder is at:
 
