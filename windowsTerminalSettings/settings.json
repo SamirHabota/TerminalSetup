@@ -48,7 +48,12 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-  "launchMode": "default",
+  "launchMode": "focus",
+  "centerOnLaunch": true,
+  "focusFollowMouse": true,
+  "initialCols": 80,
+  "initialRows": 20,
+
   "profiles": {
     "defaults": {
       "useAcrylic": true,
@@ -57,7 +62,7 @@
       "colorScheme": "DimmedMonokai",
       "font": {
         "face": "MesloLGMDZ Nerd Font Mono",
-        "size": 12
+        "size": 15
       },
       "startingDirectory": "C:/Users/Samir/Desktop/projects",
       "tabColor": "#454545",
