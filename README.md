@@ -6,7 +6,7 @@ This is a powerline setup based on Posh.
 ## Posh
 Having GIT installed is asummed and implied.
 
-From the terminal, install the following two Posh based packages:
+From the terminal, install the following two Posh based modules:
 ```
 Install-Module posh-git -Scope CurrentUser
 Install-Module oh-my-posh -Scope CurrentUser

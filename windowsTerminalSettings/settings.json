@@ -51,6 +51,7 @@
   "launchMode": "default",
   "profiles": {
     "defaults": {
+      "useAcrylic": true,
       "acrylicOpacity": 0.80000000000000004,
       "bellStyle": "all",
       "colorScheme": "DimmedMonokai",
@@ -60,8 +61,7 @@
       },
       "startingDirectory": "C:/Users/Samir/Desktop/projects",
       "tabColor": "#454545",
-      "tabTitle": "Dev",
-      "useAcrylic": true
+      "tabTitle": "Dev"
     },
     "list": [
       {
@@ -71,7 +71,7 @@
         "name": "Windows PowerShell"
       },
       {
-        "commandline": "cmd.exe",
+        "commandline": "cmd.exe -nologo",
         "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
         "hidden": false,
         "name": "Command Prompt"
