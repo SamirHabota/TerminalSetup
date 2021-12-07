@@ -1,6 +1,6 @@
 # Powerline setup
 
-Credit and more details <a style="text-decoration: none" href = "https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh">here.</a>
+Credit and more details <a style="text-decoration: none" href = "https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh" target="_blank">here.</a>
 This is a powerline setup based on Posh.
 
 ## Posh
@@ -18,7 +18,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme {DESIRED THEME}
 ```
-All `oh-my-posh` themes for this integration can be found <a href="https://ohmyposh.dev/docs/themes" style="text-decoration: none">here.</a>
+All `oh-my-posh` themes for this integration can be found <a href="https://ohmyposh.dev/docs/themes" style="text-decoration: none" target="_blank">here.</a>
 
 As of the last commit date, my desired theme is `star` (star.omp.json).
 
