@@ -1,11 +1,15 @@
 # Powerline setup
 
 Credit and more details <a style="text-decoration: none" href = "https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh" target="_blank">here.</a>
-This is a powerline setup based on Posh.
+This is a powerline setup based on Posh. <br/>
+To find the Windows JSON settings file, navigate to:
+
+```
+%LOCALAPPDATA%\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\
+```
 
 ## Posh
-Having GIT installed is asummed and implied.
-
+Having GIT installed is asummed and implied.<br/>
 From the terminal, install the following two Posh based modules:
 ```
 Install-Module posh-git -Scope CurrentUser
@@ -18,8 +22,7 @@ Import-Module posh-git
 Import-Module oh-my-posh
 Set-PoshPrompt -Theme {DESIRED THEME}
 ```
-All `oh-my-posh` themes for this integration can be found <a href="https://ohmyposh.dev/docs/themes" style="text-decoration: none" target="_blank">here.</a>
-
+All `oh-my-posh` themes for this integration can be found <a href="https://ohmyposh.dev/docs/themes" style="text-decoration: none" target="_blank">here.</a><br/>
 As of the last commit date, my desired theme is `star` (star.omp.json).
 
 ## Powerline font
@@ -31,9 +34,10 @@ Add a powerline font to the OS `fonts` folder, then default the font from inside
 ## Powerline theme modifications
 Type just `$profile` inside the terminal to view the `oh-my-posh` directory for any powerline specific JSON theme changes. Find the JSON file of the desired theme, and start modifying. For any of my desired themes, view the JSON theme settings provided in the repos `powerlineThemeSetups` folder.
 
-For me, as of the last commit date, the themes folder is at:
-
-`C:\Users\Samir\Documents\WindowsPowerShell\Modules\oh-my-posh\3.144.0\themes`
+For me, as of the last commit date, the themes folder is at:<br/>
+```
+C:\Users\Samir\Documents\WindowsPowerShell\Modules\oh-my-posh\3.144.0\themes
+```
 
 # Terminal setup
 Open the Windows terminal JSON settings, and paste the attached `windowsTerminalSettings/settigns.json` configuration. All explanations will be provided inside the JSON file.

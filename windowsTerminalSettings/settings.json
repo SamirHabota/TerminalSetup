@@ -41,7 +41,7 @@
         "split": "auto",
         "splitMode": "duplicate"
       },
-      "keys": "alt+d"
+      "keys": "ctrl+d"
     }
   ],
   "alwaysShowTabs": false,
