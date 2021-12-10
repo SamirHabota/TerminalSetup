@@ -64,9 +64,9 @@ To find all available colors, view the Windows `Console.ForegroundColor` propert
 
 Credit and more details <a style="text-decoration: none" href = "https://github.com/PowerShell/PSReadLine" target="_blank">here.</a>
 
-From the terminal, install the following module:
+From the terminal, install the following module (the `-Force` flag will override the default Windows `ReadLine` behaviour):
 ```
-Install-Module PSReadLine
+Install-Module PSReadLine -Force
 ```
 
 Run `notepad $profile` from the terminal and add the following lines to the end of the file (the first time, allow the notepad prompt to create the file):
