@@ -11,7 +11,7 @@ To find the Windows JSON settings file, navigate to:
 
 # Powerline setup
 Credit and more details <a style="text-decoration: none" href = "https://www.hanselman.com/blog/how-to-make-a-pretty-prompt-in-windows-terminal-with-powerline-nerd-fonts-cascadia-code-wsl-and-ohmyposh" target="_blank">here.</a>
-This is a `powerline` setup based on `Posh` modules. Instalation, fonts, preferences and setup can be found below. <br/>
+This is a `powerline` setup based on `Posh` modules. Instalation, fonts and preferences can be found below. <br/>
 
 ## Posh
 From the terminal, install the following two Posh based modules:
