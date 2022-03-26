@@ -43,6 +43,13 @@ For me, as of the last commit date, the themes folder is at:<br/>
 C:\Users\Samir\Documents\WindowsPowerShell\Modules\oh-my-posh\3.144.0\themes
 ```
 
+The themes directory location strives to be updated in newer operating systems, hence if the themes folder is missing using the first method described above, type the command `$env:POSH_THEMES_PATH` to view the updated themes folder location.
+
+For me, as of the last commit date, the updated themes folder is at:<br/>
+```
+C:\Users\Samir\AppData\Local\oh-my-posh\themes
+```
+
 # Get-ChildItemColor
 Credit and more details <a style="text-decoration: none" href = "https://github.com/joonro/Get-ChildItemColor" target="_blank">here.</a>
 
