@@ -42,6 +42,17 @@
         "splitMode": "duplicate"
       },
       "keys": "ctrl+d"
+    },
+    {
+      "command": {
+        "action": "globalSummon",
+        "name": "_quake",
+        "dropdownDuration": 1,
+        "toggleVisibility": true,
+        "monitor": "any",
+        "desktop": "toCurrent"
+      },
+      "keys": "win+`"
     }
   ],
   "alwaysShowTabs": false,
